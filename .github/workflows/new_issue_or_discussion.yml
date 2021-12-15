@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: nmshd/github-notify-action@v1
         with:
-          webhook_url: ${{ secrets.MS_TEAMS_WEBHOOK_SUPPORT }}
+          webhook_url: ${{ secrets.MS_TEAMS_WEBHOOK_CONTRIBUTION }}
